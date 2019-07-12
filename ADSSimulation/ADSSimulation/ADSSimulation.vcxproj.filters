@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Mine">
+      <UniqueIdentifier>{2579c19b-8190-4673-a090-938c7700314d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NotMine">
+      <UniqueIdentifier>{dfc14195-c0f1-4828-a552-bc5fa402be6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NotMine\longInt">
+      <UniqueIdentifier>{5d5a1d39-ad37-46c2-8ae6-0d8d2aaf2402}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NotMine\pQueue">
+      <UniqueIdentifier>{e8ab837e-ccc5-4018-bda8-c162923e6dd4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\SimFunc.c">
+      <Filter>Mine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SimMain.c">
+      <Filter>Mine</Filter>
+    </ClCompile>
+    <ClCompile Include="longInt\adsIlgas_func.c">
+      <Filter>NotMine\longInt</Filter>
+    </ClCompile>
+    <ClCompile Include="pQueue\pqueue.c">
+      <Filter>NotMine\pQueue</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\SimHeader.h">
+      <Filter>Mine</Filter>
+    </ClInclude>
+    <ClInclude Include="longInt\adsIlgas_h.h">
+      <Filter>NotMine\longInt</Filter>
+    </ClInclude>
+    <ClInclude Include="pQueue\datatype.h">
+      <Filter>NotMine\pQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="pQueue\pqueue.h">
+      <Filter>NotMine\pQueue</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="SimParams.txt">
+      <Filter>Mine</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ADS4.Controller">
+   <children>
+      <TextField fx:id="fileNameTextBox" layoutX="10.0" layoutY="14.0" onAction="#fileNameChanged" prefHeight="39.0" prefWidth="781.0" promptText="Data file name" text="sample.txt" />
+      <ComboBox fx:id="fromCombo" layoutX="10.0" layoutY="75.0" prefHeight="75.0" prefWidth="250.0" promptText="From" />
+      <ComboBox fx:id="toCombo" layoutX="541.0" layoutY="75.0" prefHeight="75.0" prefWidth="250.0" promptText="To" />
+      <Button layoutX="276.0" layoutY="75.0" mnemonicParsing="false" onAction="#doTheThing" prefHeight="75.0" prefWidth="250.0" text="Calclutate best path" />
+      <TextField fx:id="outputField" editable="false" layoutX="11.0" layoutY="166.0" prefHeight="120.0" prefWidth="780.0" />
+   </children>
+</Pane>
